@@ -2,6 +2,7 @@
 
 <head>
     <title>SignUp</title>
+    <link rel="stylesheet" href="{{ asset('storage/css/signup.css') }}">
 </head>
 @section('content')
 <div class="container-fluid p-0 signup-body">
@@ -63,7 +64,7 @@
                 </div>
                 <div class="row mb-3">
                     <div class="input-group">
-                    <p class="col sign-in-link">Already have an account?<a href="#"> Sign in</a></p>
+                    <p class="col sign-in-link">Already have an account?<a href="/"> Sign in</a></p>
                     </div>
                 </div>
             </div>
